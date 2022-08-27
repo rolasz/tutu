@@ -1,0 +1,22 @@
+:root {
+	--main-color: orange;
+	--header-color: tomato;
+	--header-height: 60px;
+	--bottom-nav-height: 50px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+::selection {
+	background-color: var(--main-color);
+}

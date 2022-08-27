@@ -1,0 +1,40 @@
+.user-manager {
+	.feature {
+		display: flex;
+        align-items: center;
+        gap: 300px
+	}
+
+    .title {
+        margin-left: 230px;
+    }
+
+	.user-table {
+		margin: 32px 20%;
+
+		.controls {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 12px;
+
+			.control-item {
+				font-size: 24px;
+				transition: 0.4s;
+				cursor: pointer;
+
+				&:first-child {
+					color: var(--main-color);
+				}
+
+				&:last-child {
+					color: red;
+				}
+
+				&:hover {
+					transform: scale(1.2);
+				}
+			}
+		}
+	}
+}

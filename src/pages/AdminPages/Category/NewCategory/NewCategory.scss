@@ -1,0 +1,29 @@
+.new-category {
+
+    .new-category__form {
+        margin: auto;
+        width: 620px;
+        min-height: 320px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        border-radius: 16px;
+        border: 2px solid var(--main-color);
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .form-control {
+            border-radius: 8px;
+            padding: 8px;
+            background-color: white;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+        }
+    }
+}

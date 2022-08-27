@@ -1,0 +1,52 @@
+.product-manager {
+	.feature {
+		display: flex;
+		justify-content: flex-end;
+
+		& > div {
+			margin-right: 25%;
+		}
+	}
+
+	.container {
+		width: 100%;
+		padding: 0 32px;
+
+		.left,
+		.right {
+			display: flex;
+			gap: 12px;
+			flex-direction: column;
+		}
+
+		.right {
+		}
+
+		.field {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			gap: 16px;
+
+			.field__img {
+				width: 200px;
+				border-radius: 12px;
+				box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+					rgba(0, 0, 0, 0.22) 0px 10px 10px;
+				margin: 12px;
+			}
+
+			input {
+				width: 215px;
+			}
+		}
+	}
+
+	.actions {
+		margin: 40px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 60px;
+	}
+}

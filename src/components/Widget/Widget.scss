@@ -1,0 +1,13 @@
+.widget {
+    border-radius: 8px;
+    width: max-content;
+    padding: 8px 16px;
+    background-color: rgba(107, 104, 107, 0.267);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+    &.active, &:hover{
+        background-color: var(--main-color);
+        color: white;
+    }
+}

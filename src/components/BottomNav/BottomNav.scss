@@ -1,0 +1,25 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: var(--bottom-nav-height);
+    background: var(--main-color);
+
+    .items {
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+
+        .item {
+            cursor: pointer;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 0 8px;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.containner {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+        margin-bottom: 32px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        input {
+            width: 360px;
+        }
+
+        .buttons {
+            margin-top: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+    }
+}
